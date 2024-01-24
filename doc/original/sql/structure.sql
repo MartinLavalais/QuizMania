@@ -188,7 +188,7 @@ CREATE TABLE `records` (
   `id_record` int(11) NOT NULL AUTO_INCREMENT,
   `date` datetime NOT NULL,
   `time` int(5) NOT NULL,
-  `correct` tinyint(1) NOT NULL DEFAULT 0,
+  `correct` double NOT NULL,
   `id_user` int(11) NOT NULL,
   `id_quiz` int(11) NOT NULL,
   PRIMARY KEY (`id_record`),
